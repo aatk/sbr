@@ -1,8 +1,11 @@
 {
   "name": "sbr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Пакетный менеджер для MIS CMS",
   "main": "index.js",
+  "bin": {
+    "sbr": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "echo \"TEST POSTINSTALL\""
