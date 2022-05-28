@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 const { exec } = require("child_process");
+const package = require("./package.json");
 // const { spawn } = require("child_process");
 
+console.log(package.version);
 console.log("sbr", process.argv);
 console.log("sbr", __dirname);
 
