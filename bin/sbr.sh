@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#Если ссылка автоматически не сформировалась, можно установить её вручную командами
+#chmod ugo+x /usr/local/lib/node_modules/sbr/sbr.sh
 #ln -s /usr/local/lib/node_modules/sbr/index.js /usr/local/bin/sbr
 declare -a PARAMS_ARRAY
 
@@ -11,8 +13,5 @@ count=$((count+1))
 shift
 done
 
-echo "${PARAMS_ARRAY[@]}"
-
 DIRNAME=`pwd`
-echo "DIRNAME $DIRNAME"
 /usr/local/lib/node_modules/sbr/index.js $DIRNAME "${PARAMS_ARRAY[@]}"

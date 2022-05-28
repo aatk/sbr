@@ -1,10 +1,10 @@
 {
   "name": "sbr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Пакетный менеджер для MIS CMS",
   "main": "index.js",
   "bin": {
-    "sbr": "./sbr.sh"
+    "sbr": "./bin/sbr.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
