@@ -1,0 +1,20 @@
+{
+  "name": "sbr",
+  "version": "1.0.1",
+  "description": "Пакетный менеджер для MIS CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo \"TEST POSTINSTALL\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aatk/sbr.git"
+  },
+  "author": "aatk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aatk/sbr/issues"
+  },
+  "homepage": "https://github.com/aatk/sbr#readme"
+}
