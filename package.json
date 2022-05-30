@@ -7,7 +7,8 @@
     "sbr": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "sbr i iii"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/aatk/sbr/issues"
   },
+  "appstore": "http://localhoost:3777",
   "homepage": "https://github.com/aatk/sbr#readme",
   "dependencies": {
     "adm-zip": "^0.5.9",
