@@ -1,0 +1,31 @@
+const {{shortName}}Model = require("./models/{{shortName}}.model");
+const Extensions = require("../../../config/extensions");
+const {{shortName}}Dto = require("../db/dtos/{{shortName}}.dto");
+
+class {{shortName}}Service extends Extensions {
+
+    async get(id) {
+        let result = await {{shortName}}Model.get(id);
+        return Object(new {{shortName}}Dto(result));
+    }
+
+    async post(body) {
+        let data = Object(new {{shortName}}Dto(body));
+        let result = await {{shortName}}Model.new(data);
+        return result;
+    }
+
+    async put(id, body) {
+        let data = Object(new {{shortName}}Dto(body));
+        let result = await {{shortName}}Model.update(id, data);
+        return result;
+    }
+
+    async del(id) {
+        let result = await {{shortName}}Model.del(id);
+        return result;
+    }
+
+}
+
+module.exports = {{shortName}}Service;

@@ -1,0 +1,27 @@
+const {Sequelize, {{shortName}}} = require('../../../../db/models');
+const {{shortName}}Dto = require('../../db/dtos/{{shortName}}.Dto');
+const ApiError = require('../../../../exceptions/ApiError');
+
+class {{shortName}}Model {
+
+    static async get(id) {
+        return {{shortName}}.findOne({where: {id: id}})
+    }
+
+    static async new(body) {
+        const result = await {{shortName}}.create(body)
+        return result;
+    }
+
+    static async update(id, data) {
+        await {{shortName}}.update(data, {where: {id}})
+        return {"result": true};
+    }
+
+    static async del(id) {
+        await {{shortName}}.destroy({where: {id}})
+        return {"result": true};
+    }
+}
+
+module.exports = {{shortName}}Model;

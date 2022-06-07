@@ -1,0 +1,9 @@
+const router = require('express').Router();
+const {{shortName}}Controller = require('../controllers/{{shortName}}.controller');
+
+router.route('/:id').get({{shortName}}Controller.get)
+router.route('/test').post({{shortName}}Controller.post)
+router.route('/:id').put({{shortName}}Controller.put)
+router.route('/:id').delete({{shortName}}Controller.del)
+
+module.exports = router;
