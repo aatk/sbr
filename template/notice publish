@@ -1,0 +1,58 @@
+admin@MacBook-Air-Alex-2 sbr % npm publish
+npm notice
+npm notice 📦  sbr@1.0.10
+npm notice === Tarball Contents ===
+npm notice 467B  .idea/$CACHE_FILE$
+npm notice 483B  .idea/dataSources.xml
+npm notice 161B  .idea/dictionaries
+npm notice 155B  .idea/inspectionProfiles/Project_Default.xml
+npm notice 187B  .idea/jsLibraryMappings.xml
+npm notice 174B  .idea/misc.xml
+npm notice 258B  .idea/modules.xml
+npm notice 281B  .idea/sbr.iml
+npm notice 180B  .idea/vcs.xml
+npm notice 623B  bin/sbr.sh
+npm notice 54B   index.js
+npm notice 1.4kB lib/cli.js
+npm notice 298B  lib/command/getstore.js
+npm notice 1.3kB lib/command/gl/services.js
+npm notice 9.6kB lib/command/init.js
+npm notice 80B   lib/command/install.js
+npm notice 1.7kB lib/command/login.js
+npm notice 1.6kB lib/command/publish.js
+npm notice 1.2kB lib/command/run.js
+npm notice 929B  lib/command/setstore.js
+npm notice 451B  lib/command/start.js
+npm notice 82B   lib/command/uninstall.js
+npm notice 666B  package.json
+npm notice 124B  publish.sh
+npm notice 1.2kB template/cms.node/controllers/TMP.controller.js.tmp
+npm notice 355B  template/cms.node/db/dtos/TMP.dto.js.tmp
+npm notice 1.3kB template/cms.node/db/migrations/date-create-TMP.js.tmp
+npm notice 866B  template/cms.node/db/models/TMP.js.tmp
+npm notice 698B  template/cms.node/db/seeders/date-TMP.js.tmp
+npm notice 377B  template/cms.node/routers/TMP.router.js.tmp
+npm notice 722B  template/cms.node/services/models/TMP.model.js.tmp
+npm notice 864B  template/cms.node/services/TMP.service.js.tmp
+npm notice 233B  template/cms.react/index.js.tmp
+npm notice 1.1kB test/controllers/Test.controller.js
+npm notice 337B  test/db/dtos/Test.dto.js
+npm notice 1.3kB test/db/migrations/1654634211785-create-Test.js
+npm notice 830B  test/db/models/Test.js
+npm notice 680B  test/db/seeders/1654634211785-Test.js
+npm notice 505B  test/package.json
+npm notice 323B  test/routers/Test.router.js
+npm notice 641B  test/services/models/Test.model.js
+npm notice 747B  test/services/Test.service.js
+npm notice === Tarball Details ===
+npm notice name:          sbr
+npm notice version:       1.0.10
+npm notice filename:      sbr-1.0.10.tgz
+npm notice package size:  8.9 kB
+npm notice unpacked size: 35.5 kB
+npm notice shasum:        b4f8de3d92283ed507edefdfe959542603206dc2
+npm notice integrity:     sha512-XdlyQm+J0P6xX[...]J9FMUicoR3RmQ==
+npm notice total files:   42
+npm notice
+npm notice Publishing to https://registry.npmjs.org/
++ sbr@1.0.10
