@@ -15,5 +15,7 @@ shift
 done
 
 DIRNAME=`pwd`
+#echo $DIRNAME
 #/usr/local/lib/node_modules/sbr/index.js $DIRNAME "${PARAMS_ARRAY[@]}"
-/private/var/www/packajes/sbr/index.js $DIRNAME "${PARAMS_ARRAY[@]}"
+#$DIRNAME
+/Users/19522605/www/components/sbr/index.js "${PARAMS_ARRAY[@]}"
