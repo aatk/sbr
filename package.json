@@ -1,6 +1,6 @@
 {
   "name": "sbr",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "Пакетный менеджер для MIS CMS",
   "main": "index.js",
   "bin": {
